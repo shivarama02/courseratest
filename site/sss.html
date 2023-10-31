@@ -4,123 +4,32 @@
 	<meta charset="utf-8">
 	<title>HTML</title>
   <style>
-    h1{
-      color: color(srgb red green blue);
+
+    /* all li elements that are inside a section element. */
+    section li {
+      color: green;
     }
-  </style>
+    
+    </style>
 </head>
 <body>
-	 <h1 id="top">Links to Sections of The Same Page</h1>
-  <section>
-    <ul>
-      <!-- Link to every section in the page -->
-      <li><a href="#section1">What is HTML</a></li>
-      <li><a href="#section2">Example Explained</a></li>
-      <li><a href="#section3">What is an HTML Element?</a></li>
-      <li><a href="#section4">Web Browsers</a></li>
-      <li><a href="#section5">HTML Page Structure</a></li>
-      <li><a href="#section6">HTML Page Structure</a></li>
-    </ul>
-
-  </section>
-
-  <section id="section1">
-    <h3>What is HTML</h3>
-    <p>
-    	<ul>
-<li>HTML stands for Hyper Text Markup Language</li>
-<li>HTML is the standard markup language for creating Web pages</li>
-<li>HTML describes the structure of a Web page</li>
-<li>HTML elements tell the browser how to display the content</li>
-<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
-</ul>
-</p>
-  </section>
-
-  <section id="section2">
-    <h3>Example Explained</h3>
-    <p>
-The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document
-The &lt;html&gt; element is the root element of an HTML page
-The &lt;head&gt; element contains meta information about the HTML page
-The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
-The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-The &lt;h1&gt; element defines a large heading
-The &lt;p&gt; element defines a paragraph.</p>
-  </section>
-  <section id="section3">
-    <h3>What is an HTML Element?</h3>
-    <p>
-<br>An HTML element is defined by a start tag, some content, and an end tag:
-
-<br> &lt;tagname&gt; Content goes here...  &lt;/tagname&gt;
-<br>The HTML element is everything from the start tag to the end tag:
-
- &lt;h1&gt;My First Heading &lt;/h1&gt;
- &lt;p&gt;My first paragraph. &lt;/p&gt;
-</p>
-<tbody>
-	<tr>
-		<th>Start tag</th>
-		<th>Element content</th>
-		<th>End tag</th>
-	</tr>
-	<tr>
-		<td>&lt;h1&gt;</td>
-		<td>My First Heading</td>
-		<td>&lt;/h1&gt;</td>
-	</tr>
-	<tr>
-		<td>&lt;p&gt;</td>
-		<td>My first paragraph.</td>
-		<td>&lt;/p&gt;</td>
-	</tr>
-	<tr>
-		<td>&lt;br&gt;</td>
-		<td><em>none</em></td>
-		<td><em>none</em></td>
-	</tr>
-</tbody>
-  </section>
-  <section id="section4">
-    <h2>Web Browsers</h2>
-    <p>
-    	<div>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</div>
-    	<div>A browser does not display the HTML tags, but uses them to determine how to display the document:</div>
-      <a href="https://www.instagram.com/p/CoRt9OMPWcL/?igshid=MzRlODBiNWFlZA==" target="_blank">
-    	<img alt="View in Browser" src="D:\PUTTU'S COURSE\WhatsApp Image 2023-10-30 at 12.32.25 PM.jpeg" class="w3-image">
-      </a>
-</p>
-  </section>
-  <section id="section5">
-    <h2>HTML Page Structure</h2>
-    <p>Below is a visualization of an HTML page structure:</p>
-  </section id="section6">
-  <section>
-    <h2>HTML Page Structure</h2>
-    <p>Below is a visualization of an HTML page structure:</p>
-    <div>&lt;html&gt;
-<div>&lt;head&gt;
-<div>&lt;title&gt;Page title&lt;/title&gt;
-</div>
-&lt;/head&gt;
-</div>
-<div>&lt;body&gt;
-<div>
-<div>&lt;h1&gt;This is a heading&lt;/h1&gt;</div>
-<div>&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
-<div>&lt;p&gt;This is another paragraph.&lt;/p&gt;</div>
-</div>
-&lt;/body&gt;
-</div>
-&lt;/html&gt;
-</div>
-    </section>
-    <div>
-    <p>
-      Back to top: <a href="#top">Back to Top</a>
-    </p>
-  </div>
+	<h1>Decendant Selector</h1>
+<section>
+  Table of contents:
+  <ul>
+    <li>Article 1</li>
+    <li>Article 2</li>
+    <li>Article 3</li>
+  </ul>
+</section>
+<article>
+  Shopping List:
+  <ul>
+    <li>Cookies</li>
+    <li>Cake</li>
+    <li>Pie</li>
+  </ul>
+</article>
 <div>
 	<a href="link.html" title="come">click here</a>
 </div>

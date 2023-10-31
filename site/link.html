@@ -4,38 +4,32 @@
 	<meta charset="utf-8">
 	<titlel>HTML</title>
 		<style>
-			h2 {
-					color: #af6d6d;
-				    text-align: center;
-				}
-				.highlight {
-					font-size: 20px;
-				    font-weight: bold;
-					font-style: italic;
-					background-color: green;
-					opacity: .6;
-				}
-				#mainPoint {
-					font-size: 24px;
-					font-weight: bold;
-					background-color: #af6d6d;
-					opacity: .7;
-				}
-				p, h1 {
-					color: blue;
-					text-align: center;
-				}
-		</style>
+
+			/* any article element which is a direct child of a section element,i.e., any article element whose immediate parent is a section element. */
+			section > article {
+			  color: green;
+			  font-size: 24px;
+			}
+			
+			/* any h2 element which is a direct child of a section element,i.e., any h2 element whose immediate parent is a section element. */
+			section > h2 {
+			  color: green;
+			}
+			
+			</style>
 </head>
 <body>
-	<h1>Simple Selectors (h1)</h1>
-	<h2>Subheading 1 (h2)</h2>
-	<p class="highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
-	<p class="highlight">Paragraph with attribute class="highlight". Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-	<h2>Subheading 2 (h2)</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
-	<div>This is the main point of the entire article. So, attribute 
-		<span id="mainPoint">id="mainPoint".</span> </div>
+	<h1>Child Selector</h1>
+<section>
+  <h2>Subheading 1</h2>
+  <div>
+    <article>ARTICLE which inside DIV, which is inside SECTION</article>
+  </div>
+</section>
+<section>
+  <article>ARTICLE as a direct child of the SECTION element.</article>
+</section>
+<h2>Subheading 2</h2>
 
 		<div>
 			For most beautiful handsome guy in the world(just kidding)<a href="https://www.instagram.com/p/CoRt9OMPWcL/?igshid=MzRlODBiNWFlZA==" target="_blank" title="like and share">click here</a>
